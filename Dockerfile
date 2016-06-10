@@ -13,7 +13,7 @@ RUN apt-get install -yq software-properties-common && \
     apt-get install -yq ansible
 	
 RUN apt-get install -y tree && \
-    apt-get install -y vim && \
+    apt-get install -y nano && \
     apt-get install -y wget
 
 RUN apt-get clean && \
