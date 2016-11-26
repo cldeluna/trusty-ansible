@@ -15,6 +15,9 @@ RUN apt-get install -yq software-properties-common && \
 RUN apt-get install -y tree && \
     apt-get install -y nano && \
     apt-get install -y wget
+    
+RUN pip install argparse && \
+        pip install requests    
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/*
