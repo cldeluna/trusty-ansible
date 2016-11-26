@@ -10,3 +10,6 @@ Purpose built ansible image starting with Ubuntu Trusty base and including:
 Python environment
 - argparse
 - requests
+
+Available on Docker Hub
+https://hub.docker.com/r/cldeluna/trusty-ansible/
