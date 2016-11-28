@@ -21,8 +21,10 @@ RUN pip install argparse && \
 
 RUN apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+    
+VOLUME /ansible
+
 WORKDIR /ansible
 
-EXPOSE 22
 
   
